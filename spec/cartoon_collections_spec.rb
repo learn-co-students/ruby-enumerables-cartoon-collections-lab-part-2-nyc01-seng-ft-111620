@@ -44,7 +44,11 @@ describe "./cartoon_collections.rb" do
 
       it "if no valid planeteer calls are found, returns nil" do
         #remove this code because of summon_captain_planet method it keeps giving me error
+<<<<<<< HEAD
         #expect(find_valid_calls(small_calls)).to be(nil)
+=======
+        # expect(find_valid_calls(small_calls)).to be(nil)
+>>>>>>> a05e79a15020826264b564b83c5581403d780815
         expect(find_valid_calls(short_calls)).to be(nil)
       end
     end
