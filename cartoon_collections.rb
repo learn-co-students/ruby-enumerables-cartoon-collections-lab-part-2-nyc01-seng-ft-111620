@@ -5,6 +5,8 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
+  # x = planeteer_calls.copy 
+  
   planeteer_calls.map do |word| 
     word.capitalize! << "!"
   end
